@@ -1,0 +1,11 @@
+.ProfileModal {
+    display: flex;
+    flex-direction: row;
+    width: 70px;
+    padding: 7px 15px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 0px rgba(0, 0, 0, .2);
+    border: 1px solid r;
+    border-radius: 5px;
+    position: fixed;
+}

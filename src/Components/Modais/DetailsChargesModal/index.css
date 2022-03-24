@@ -1,0 +1,117 @@
+.DetailsChargesModal {
+  background-color: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.details-charges-container {
+  background-color: #ffffff;
+  padding: 35px 40px;
+  width: 600px;
+  height: 500px;
+  text-align: end;
+  border-radius: 15px;
+}
+
+.header-details-charges-modal {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.header-details-charges-modal h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 130%;
+  color: #3f3f55;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: flex-start;
+  margin-bottom: 20px;
+}
+
+.container-aside {
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+}
+
+.details-head {
+  margin-bottom: 8px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3f3f55;
+}
+
+.details-body {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3f3f55;
+}
+
+.description .details-body {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 130%;
+  display: flex;
+  color: #000000;
+}
+
+.notPaid {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #971d1d;
+  padding: 0px 8px;
+  background: #ffefef;
+  border-radius: 8px;
+}
+
+.toBePaid {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #c5a605;
+  padding: 0px 8px;
+  background: #fcf6dc;
+  border-radius: 8px;
+}
+
+.alredyPaid {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #1fa7af;
+  padding: 0px 8px;
+  background: #eef6f6;
+  border-radius: 8px;
+}

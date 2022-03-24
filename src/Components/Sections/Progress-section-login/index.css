@@ -1,0 +1,27 @@
+
+.img-section{
+    width: 35%;
+    background-image: url(../../../assets/login.svg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+
+.img-section-title {
+    
+    width: 330px;
+    height: fit-content;
+    color: #0E8750;
+    text-align:center;
+    margin-top: 100px;
+    font-family: Nunito;
+    font-weight:700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+

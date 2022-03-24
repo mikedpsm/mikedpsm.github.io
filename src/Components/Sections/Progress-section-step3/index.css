@@ -1,0 +1,40 @@
+.step-section{
+    display: flex;
+    width: 35%;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background: #F0F0F5;
+    padding-bottom: 250px;
+    
+    
+}
+
+.step-section__instruction{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-around;
+  
+
+}
+
+.title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 130%;
+    color: #0E8750;
+}
+
+.subtitle{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #3F3F55;
+}
+

@@ -1,0 +1,144 @@
+.RegisterChargesModal {
+  background-color: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-charges-container {
+  background-color: #ffffff;
+  padding: 35px 40px;
+  width: 550px;
+  height: 650px;
+  text-align: end;
+  border-radius: 15px;
+}
+
+.register-charges-container img {
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.header-register-charges-modal h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 130%;
+  color: #3f3f55;
+}
+
+.header-register-charges-modal {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.container-label,
+.container-label label {
+  display: flex;
+  flex-direction: column;
+  text-align: flex-start;
+  font-size: 14px;
+}
+
+.container-label span {
+  margin-bottom: 5px;
+}
+.paid-satus,
+.pendent-status {
+  cursor: pointer;
+}
+
+.container-label input {
+  all: unset;
+  padding: 7px 10px;
+  width: auto;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 20px;
+  cursor: initial;
+}
+
+.container-label textarea {
+  all: unset;
+  padding: 7px 10px;
+  width: auto;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  height: 80px;
+  cursor: initial;
+}
+
+.register-asides {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.register-down {
+  flex-wrap: wrap;
+}
+
+.register-asides input {
+  width: 200px;
+}
+
+.container-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.btn-register-cancel {
+  background-color: rgba(248, 248, 249, 1);
+  border-radius: 10px;
+  padding: 5px 75px;
+  cursor: pointer;
+  background: #f8f8f9;
+  border: 1px solid #dedee9;
+}
+
+.btn-register-cancel span {
+  color: rgba(14, 135, 80, 1);
+}
+
+.btn-register-apply {
+  all: unset;
+  padding: 5px 75px;
+  border-radius: 10px;
+  background-color: rgba(218, 1, 117, 1);
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.input-status button {
+  border: none;
+  height: 30px;
+  margin-bottom: 10px;
+  height: 40px;
+  text-align: flex-start;
+  padding-left: 16px;
+  display: flex;
+  background: #f0f0f5;
+  border-radius: 10px;
+  align-items: center;
+  color: #3f3f55;
+}
+
+.check {
+  image-rendering: none;
+}

@@ -1,0 +1,86 @@
+.CustomersCard {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 150px);
+  width: calc(100vw - 230px);
+  margin-top: 30px;
+  margin-left: 75px;
+  overflow-y: scroll;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+
+.addNewCharge,
+.customer-profile {
+  cursor: pointer;
+}
+
+.customer-card-ahead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.customer-card-ahead span {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 50px;
+  width: 150px;
+}
+
+.customer-container-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-right: 115px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.customer-container-item span,
+.client-status {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 40px;
+  width: 150px;
+}
+
+.overdueFalse {
+  text-align: center;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #1fa7af;
+  padding: 0px 8px;
+  background: #eef6f6;
+  border-radius: 8px;
+  width: 60px;
+}
+
+.overdueTrue {
+  text-align: center;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #971d1d;
+  padding: 0px 8px;
+  background: #ffefef;
+  border-radius: 8px;
+}
+
+.new-invoice, .canClick {
+  cursor: pointer;
+}

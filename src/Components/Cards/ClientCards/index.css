@@ -1,0 +1,114 @@
+.ClientCard {
+    width: calc(100vw - 108px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.defaulter-client, .loyal-client {
+    background-color: #FFFFFF;
+    box-shadow: rgba(172, 217, 197, 0.25);
+    padding: 10px 20px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.header-clients-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #EFF0F6;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130%;
+    color: #3F3F55;
+}
+.card-title{
+    display:flex;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.card-title img{
+    margin-right: 10px ;
+}
+
+.defaulter-count, .loyal-count {
+    font-size: 14px;
+    padding: 2px 10px;
+    border-radius: 8px;
+}
+
+.defaulter-count {
+    color: rgba(151, 29, 29, 1);
+    background-color: #FFEFEF;
+}
+
+.loyal-count {
+    color: rgba(31, 167, 175, 1);
+    background-color: rgba(238, 246, 246, 1);
+}
+
+.clients-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.client-guide, .client-register {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid #EFF0F6;
+    margin-bottom: 15px;
+}
+.client-register{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.005em;
+    color: #6E6E85;
+
+}
+
+.client-guide span{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 50px;
+    letter-spacing: 0.005em;
+    color: #3F3F55;
+    white-space: nowrap;
+}
+
+.client-guide span, .client-register span {
+    text-align: center;
+    width: 100px;
+}
+
+
+.all {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.all span {
+    text-decoration: underline;
+    color: rgba(218, 1, 117, 1);
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    cursor: pointer;
+}
+
