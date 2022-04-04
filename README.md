@@ -1,67 +1,8 @@
-# SOBRE ESTE PROJETO
+# Desafio Binahki
+ Projeto desenvolvido para o desafio do processo seletivo da Binahki. Trata-se de uma ferramenta composta de timers, onde um relatório é realizado em cima do tempo de produtividade indicado pelo uso dos timers. 
 
-Desafio final do curso de Desenvolvimento de Software da Cubos Academy. Trata-se de uma plataforma de cobranças desenvolvido em grupo utilizando a metodologia ágil Scrum. Através de 3 sprints, criamos a plataforma que oferece funcionalidades CRUD para clientes, usuários e cobranças. A API do Back-End foi desenvolvida utilizando o padrão Rest. Nosso Front-end está hospedado na Netlify, já o Back-end, na Heroku.
+## Introdução - Criar um Tracker Time
 
-### Tecnologias utilizadas
+ Tracker Time é uma ferramenta de controle e gestão de tempo, em outras palavras é um cronômetro que calcula o início e término de uma atividade.
 
-##### Back-end
-
-* Javascript
-* NodeJs
-* PostgreSQL
-* ExpressJs
-* Yup
-* secure-password
-* JWT
-* dotenv
-
-##### Front-end
-
-* React
-* React Router Dom
-* Axios
-* Yup
-
-### Autores
-
-##### Back-end
-
-###### Maicon Douglas Paiva da Silva
-
-LinkedIn:
-<https://www.linkedin.com/in/mikedpsm/>
-
-e-mail:
-maicondpsm@gmail.com
-
-##### Front-end
-
-###### Jonatas Ximenez
-
-LinkedIn:
-<https://www.linkedin.com/in/devindio/>
-
-e-mail:
-ximenezjonatas@gmail.com
-
-![](https://i.imgur.com/xG74tOh.png)
-
-# Desafio Final Módulo 5 - BACKEND
-
-Este repositório deverá servir de base para ser realizado o fork para desenvolvimento da parte de **BACKEND** do desafio.
-
-A URL deste repositório deverá ser entregue na plataforma de alunos da Cubos Academy na página da parte de BACKEND do desafio.
-
-A versão final do código de cada sprint deverá estar na branch principal do repositório e sim, a cada semana acumulará as alterações das sprints, portanto a segunda sobrescrevendo a primeira e assim por diante.
-
----
-
-**Repositório de Backend**: https://github.com/mikedpsm/Desafio-Cubos-Back-End-Modulo-05
-
-**Repositório de Frontend**: https://github.com/IndioBR/PagManager
-
-**URL da aplicação funcionando**: https://db-pagmanager.herokuapp.com/
-
----
-
-![](https://img.shields.io/github/license/mikedpsm/Desafio-Cubos-Back-End-Modulo-05)
+ A situação: Um laboratório utiliza uma gestão de tempo para avaliar produtividade, dessa forma é necessário avaliar quanto tempo leva para concluir uma atividade que contém certo número de amostras a serem realizadas. Para assim os gestores analisarem as informações necessárias posteriormente com indicadores e relatórios.
